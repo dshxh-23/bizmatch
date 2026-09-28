@@ -1,0 +1,92 @@
+# -- -- python -- --
+
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# pytest
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+
+# -- -- virtual environments -- --
+.venv/
+venv/
+env/
+ENV/
+
+
+# -- -- jupyter notebooks -- --
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+notebooks/
+notebook/
+experiments/
+
+
+# -- -- logs -- --
+logs/
+*.log
+
+
+# -- -- IDEs and editors -- --
+.vscode/
+
+
+# -- -- data science and ml artifacts -- --
+
+# datasets and outputs
+data/
+dataset/
+datasets/
+output/
+outputs/
+
+# model weights and checkpoints
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.safetensors
+
+# Experiment tracking
+mlruns/
+wandb/
+runs/
+lightning_logs/
+tensorboard/
+
+
+# -- -- environment variables / secrets -- --
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+tp/
+
+
+# -- -- temporary files -- --
+*.tmp
+*.bak
+*.swp
+*.swo
+
+
+# -- -- OS generated files -- --
+.DS_Store
+Thumbs.db
+desktop.ini
